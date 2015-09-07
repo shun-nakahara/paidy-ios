@@ -1,0 +1,10 @@
+framework module PaidyCheckoutSDK {
+  umbrella header "PaidyCheckoutSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PaidyCheckoutSDK.Swift {
+    header "PaidyCheckoutSDK-Swift.h"
+}

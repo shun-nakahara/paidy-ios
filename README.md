@@ -1,0 +1,1 @@
+# paidy-sdk-ios

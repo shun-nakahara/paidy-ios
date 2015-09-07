@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthorizeSuccessViewController" customModule="PaidyCheckoutSDK" customModuleProvider="target">
+            <connections>
+                <outlet property="completedButton" destination="IOP-iB-gZy" id="sad-4v-jUj"/>
+                <outlet property="countdownTime" destination="pjn-Sg-Qjx" id="9cj-ir-PIC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOP-iB-gZy">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.05481324252567038" green="0.50252035183331822" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="nno-4C-oR2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="完了する">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="nno-4C-oR2"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="nno-4C-oR2"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="okButton:" destination="-1" eventType="touchUpInside" id="k9z-9e-9aY"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pd_checkmark_auth_success.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pwd-iW-VTU">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="151" id="On7-S4-qiZ"/>
+                        <constraint firstAttribute="width" constant="150" id="j2p-DH-w0h"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="On7-S4-qiZ"/>
+                            <exclude reference="j2p-DH-w0h"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="On7-S4-qiZ"/>
+                            <include reference="j2p-DH-w0h"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ボタンを押して、 ご注文手続きを完了してください。" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YvR-A0-Hx3">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="S05-H3-L3Z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                    <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="S05-H3-L3Z"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="S05-H3-L3Z"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="秒後、自動的にご注文手続きが完了されます。" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPH-KO-6gt">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="geW-cm-h9x"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                    <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="geW-cm-h9x"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="geW-cm-h9x"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjn-Sg-Qjx">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="J2y-Hu-Lsl"/>
+                        <constraint firstAttribute="width" constant="19" id="ZQT-ae-4cT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                    <color key="textColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="J2y-Hu-Lsl"/>
+                            <exclude reference="ZQT-ae-4cT"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="J2y-Hu-Lsl"/>
+                            <include reference="ZQT-ae-4cT"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fPH-KO-6gt" firstAttribute="top" secondItem="Pwd-iW-VTU" secondAttribute="bottom" constant="70" id="0cI-ad-HP3"/>
+                <constraint firstItem="IOP-iB-gZy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="8jB-8d-EsN"/>
+                <constraint firstItem="pjn-Sg-Qjx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="72" id="D7a-GK-TIu"/>
+                <constraint firstItem="fPH-KO-6gt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="84" id="NXl-Lq-vuX"/>
+                <constraint firstItem="fPH-KO-6gt" firstAttribute="centerX" secondItem="YvR-A0-Hx3" secondAttribute="centerX" id="Sha-DM-xLq"/>
+                <constraint firstItem="YvR-A0-Hx3" firstAttribute="top" secondItem="Pwd-iW-VTU" secondAttribute="bottom" constant="39" id="YhS-ba-G7Z">
+                    <variation key="heightClass=regular-widthClass=compact" constant="16"/>
+                </constraint>
+                <constraint firstItem="Pwd-iW-VTU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="210" id="boS-5k-PcL">
+                    <variation key="heightClass=regular-widthClass=compact" constant="230"/>
+                </constraint>
+                <constraint firstItem="IOP-iB-gZy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cZm-O1-SLd"/>
+                <constraint firstItem="YvR-A0-Hx3" firstAttribute="centerX" secondItem="Pwd-iW-VTU" secondAttribute="centerX" id="hnp-gR-LFZ"/>
+                <constraint firstItem="IOP-iB-gZy" firstAttribute="centerX" secondItem="YvR-A0-Hx3" secondAttribute="centerX" id="iLM-v2-hRF"/>
+                <constraint firstAttribute="bottom" secondItem="IOP-iB-gZy" secondAttribute="bottom" constant="19" id="nh0-mG-Fgp"/>
+                <constraint firstItem="pjn-Sg-Qjx" firstAttribute="top" secondItem="YvR-A0-Hx3" secondAttribute="bottom" id="ouQ-9M-KcS"/>
+                <constraint firstItem="YvR-A0-Hx3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="98" id="zuI-4y-1xA">
+                    <variation key="heightClass=regular-widthClass=compact" constant="62"/>
+                </constraint>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="IOP-iB-gZy"/>
+                    <exclude reference="Pwd-iW-VTU"/>
+                    <exclude reference="YvR-A0-Hx3"/>
+                    <exclude reference="fPH-KO-6gt"/>
+                    <exclude reference="pjn-Sg-Qjx"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="YhS-ba-G7Z"/>
+                    <exclude reference="hnp-gR-LFZ"/>
+                    <exclude reference="zuI-4y-1xA"/>
+                    <exclude reference="0cI-ad-HP3"/>
+                    <exclude reference="NXl-Lq-vuX"/>
+                    <exclude reference="Sha-DM-xLq"/>
+                    <exclude reference="D7a-GK-TIu"/>
+                    <exclude reference="ouQ-9M-KcS"/>
+                    <exclude reference="8jB-8d-EsN"/>
+                    <exclude reference="cZm-O1-SLd"/>
+                    <exclude reference="iLM-v2-hRF"/>
+                    <exclude reference="nh0-mG-Fgp"/>
+                    <exclude reference="boS-5k-PcL"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="IOP-iB-gZy"/>
+                    <include reference="Pwd-iW-VTU"/>
+                    <include reference="YvR-A0-Hx3"/>
+                    <include reference="fPH-KO-6gt"/>
+                    <include reference="pjn-Sg-Qjx"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="YhS-ba-G7Z"/>
+                    <include reference="hnp-gR-LFZ"/>
+                    <include reference="zuI-4y-1xA"/>
+                    <include reference="0cI-ad-HP3"/>
+                    <include reference="NXl-Lq-vuX"/>
+                    <include reference="Sha-DM-xLq"/>
+                    <include reference="D7a-GK-TIu"/>
+                    <include reference="ouQ-9M-KcS"/>
+                    <include reference="8jB-8d-EsN"/>
+                    <include reference="cZm-O1-SLd"/>
+                    <include reference="iLM-v2-hRF"/>
+                    <include reference="nh0-mG-Fgp"/>
+                    <include reference="boS-5k-PcL"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="pd_checkmark_auth_success.png" width="180" height="181"/>
+    </resources>
+</document>

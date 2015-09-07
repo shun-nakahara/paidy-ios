@@ -1,0 +1,6 @@
+[submodule "PaidyCheckoutSDK/ObjectMapper"]
+	path = PaidyCheckoutSDK/ObjectMapper
+	url = https://github.com/Hearst-DD/ObjectMapper.git
+[submodule "PaidyCheckoutSDK/Alamofire"]
+	path = PaidyCheckoutSDK/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
