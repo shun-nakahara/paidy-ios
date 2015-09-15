@@ -76,8 +76,6 @@
 		9CB74E001B14B85B00706A6C /* InputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E1CE71AF29E110019C89D /* InputValidation.swift */; };
 		9CB74E011B14B85B00706A6C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA835EF1AFB9C9300C12BCA /* UIColor.swift */; };
 		9CB74E021B14B85B00706A6C /* TextViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BA8A41B0AA4510097686B /* TextViewStates.swift */; };
-		9CC380011B44154200CBE4CB /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984EAC1E1B2794A500FB5FC3 /* ObjectMapper.framework */; };
-		9CC380061B44154800CBE4CB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984EAC4E1B2796D500FB5FC3 /* Alamofire.framework */; };
 		9CC380071B4415D500CBE4CB /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 984EAC1E1B2794A500FB5FC3 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CC380091B4415E900CBE4CB /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 984EAC4E1B2796D500FB5FC3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -236,8 +234,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC380011B44154200CBE4CB /* ObjectMapper.framework in Frameworks */,
-				9CC380061B44154800CBE4CB /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,7 +690,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_MAP_FILE_PATH = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -742,6 +738,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -783,7 +780,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

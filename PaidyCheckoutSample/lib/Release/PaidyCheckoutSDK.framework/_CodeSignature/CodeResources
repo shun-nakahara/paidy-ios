@@ -6,39 +6,39 @@
 	<dict>
 		<key>AuthViewController.nib</key>
 		<data>
-		TyoCvNAUQs/nrfgYtES3OnfE7Xk=
+		lEf0QwhRvy8BSAzZiHx/TmLvmg0=
 		</data>
 		<key>AuthorizeSuccessViewController.nib</key>
 		<data>
-		QIK1oFDRyBA9qhQnnchFGEyEmt0=
+		gCE3PHWafWUZvBcRFF80pw1mmms=
 		</data>
 		<key>ConsumerDataViewController.nib</key>
 		<data>
-		5pTx1GdVSS68prghsidBdFTGR3Y=
+		oVv3BECB9JcPmfAF8yf2HwrtRdA=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		N62WAKXx0ikD9avgJ5a0Bpvglmg=
+		AlMOx5DjB/68Wb8Fkdv2vA8Z+80=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
-		ko/vCzbPctc1MUHjX01a2mFIPkU=
+		vYEMYqLvyrJkaoPPOqe3x63sM08=
 		</data>
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<data>
-		aEOf1G71Lb7ocH12UzgD35ZL0f4=
+		q3LqSlBu4t+hko3366jCjXA6n8Q=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/Info.plist</key>
 		<data>
-		DkiJy2yuK/6Mj2Rm6pCvuRYosv0=
+		hJuLU9LzWFeNXIqRqC7b9E3BWp4=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/ObjectMapper</key>
 		<data>
-		lk+lg0NK8WCzPRTd/nnn/zdp1DE=
+		Oubk8Jd17g27ZDgYSOQbB8mmF+0=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BELPjptmFdMncGOf7H5SiH7dU54=
+		A4tOevc//IF9APDu2UzG11gW6JY=
 		</data>
 		<key>Headers/PaidyCheckoutSDK-Swift.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>IntroViewController.nib</key>
 		<data>
-		bwIhZNB8tKEFnSaeeZZv+pbXB+o=
+		80dBRhvKTn3c8WMCk0xXHJVPPCs=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/PaidyCheckoutSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		EgCU6HDhLZ9LPmlJLnkk2z5USIw=
+		iFRaEgLp8H1jKfVsq2XuzGdVYn8=
 		</data>
 		<key>Modules/PaidyCheckoutSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/PaidyCheckoutSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		QD2C8zIsw8uF7uGWoLPHqDZ0He4=
+		Z2GfY/90JCmnwwG1ufFSfhi8P0c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,35 +90,35 @@
 		</data>
 		<key>MultiPayTableViewCell.nib</key>
 		<data>
-		YVosMHh9JmuLGpsx8MhQCkmiEb8=
+		wJyLh12o8RYdY4tFsBywDWLLFDE=
 		</data>
 		<key>MultipaySummaryViewController.nib</key>
 		<data>
-		9sC0zTM6wb70O+t5W8i7ahkiA9Y=
+		uCmfatU3Gul1RFPTUDjhVTe/wwI=
 		</data>
 		<key>OneshotSummaryViewController.nib</key>
 		<data>
-		w4PdYtKkxK5L/8tzVU4BLwaN+ZM=
+		+VRvg6MhIXHZf9imnmo7SqEudTg=
 		</data>
 		<key>PaidyCheckoutViewController.nib</key>
 		<data>
-		TMucVyJ0ynXW3zp66E8iGWZomys=
+		mGbarWaVgWWzKuNh5HLfITj543I=
 		</data>
 		<key>PaymentsViewController.nib</key>
 		<data>
-		4eDtQpsWpIlvtbB4lialKj/hyAg=
+		YNkjtv+xfxeDpXZJlmL3ImvagvQ=
 		</data>
 		<key>StartViewController.nib</key>
 		<data>
-		z+JzF/GTc+k1fV4xe+lPZMdImvo=
+		6Q4JlwFz3x/HdC2p7HwiThNdcqE=
 		</data>
 		<key>SubViewViewController.nib</key>
 		<data>
-		GsHXBXX+SabpIRctxiGXM9y24G8=
+		yk69uC6xrlQPzhkoK2pT6VCdY/I=
 		</data>
 		<key>SubscriptionSummaryViewController.nib</key>
 		<data>
-		zLpfCKWojKagJrTGXOkpQHzyiqw=
+		Zp/FqosrjgwnlV86w5I9SP+dX2k=
 		</data>
 		<key>pd_checkbox.png</key>
 		<data>
@@ -229,39 +229,39 @@
 	<dict>
 		<key>AuthViewController.nib</key>
 		<data>
-		TyoCvNAUQs/nrfgYtES3OnfE7Xk=
+		lEf0QwhRvy8BSAzZiHx/TmLvmg0=
 		</data>
 		<key>AuthorizeSuccessViewController.nib</key>
 		<data>
-		QIK1oFDRyBA9qhQnnchFGEyEmt0=
+		gCE3PHWafWUZvBcRFF80pw1mmms=
 		</data>
 		<key>ConsumerDataViewController.nib</key>
 		<data>
-		5pTx1GdVSS68prghsidBdFTGR3Y=
+		oVv3BECB9JcPmfAF8yf2HwrtRdA=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		N62WAKXx0ikD9avgJ5a0Bpvglmg=
+		AlMOx5DjB/68Wb8Fkdv2vA8Z+80=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
-		ko/vCzbPctc1MUHjX01a2mFIPkU=
+		vYEMYqLvyrJkaoPPOqe3x63sM08=
 		</data>
 		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
 		<data>
-		aEOf1G71Lb7ocH12UzgD35ZL0f4=
+		q3LqSlBu4t+hko3366jCjXA6n8Q=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/Info.plist</key>
 		<data>
-		DkiJy2yuK/6Mj2Rm6pCvuRYosv0=
+		hJuLU9LzWFeNXIqRqC7b9E3BWp4=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/ObjectMapper</key>
 		<data>
-		lk+lg0NK8WCzPRTd/nnn/zdp1DE=
+		Oubk8Jd17g27ZDgYSOQbB8mmF+0=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BELPjptmFdMncGOf7H5SiH7dU54=
+		A4tOevc//IF9APDu2UzG11gW6JY=
 		</data>
 		<key>Headers/PaidyCheckoutSDK-Swift.h</key>
 		<data>
@@ -273,7 +273,7 @@
 		</data>
 		<key>IntroViewController.nib</key>
 		<data>
-		bwIhZNB8tKEFnSaeeZZv+pbXB+o=
+		80dBRhvKTn3c8WMCk0xXHJVPPCs=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -293,7 +293,7 @@
 		</data>
 		<key>Modules/PaidyCheckoutSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		EgCU6HDhLZ9LPmlJLnkk2z5USIw=
+		iFRaEgLp8H1jKfVsq2XuzGdVYn8=
 		</data>
 		<key>Modules/PaidyCheckoutSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -301,7 +301,7 @@
 		</data>
 		<key>Modules/PaidyCheckoutSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		QD2C8zIsw8uF7uGWoLPHqDZ0He4=
+		Z2GfY/90JCmnwwG1ufFSfhi8P0c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -309,35 +309,35 @@
 		</data>
 		<key>MultiPayTableViewCell.nib</key>
 		<data>
-		YVosMHh9JmuLGpsx8MhQCkmiEb8=
+		wJyLh12o8RYdY4tFsBywDWLLFDE=
 		</data>
 		<key>MultipaySummaryViewController.nib</key>
 		<data>
-		9sC0zTM6wb70O+t5W8i7ahkiA9Y=
+		uCmfatU3Gul1RFPTUDjhVTe/wwI=
 		</data>
 		<key>OneshotSummaryViewController.nib</key>
 		<data>
-		w4PdYtKkxK5L/8tzVU4BLwaN+ZM=
+		+VRvg6MhIXHZf9imnmo7SqEudTg=
 		</data>
 		<key>PaidyCheckoutViewController.nib</key>
 		<data>
-		TMucVyJ0ynXW3zp66E8iGWZomys=
+		mGbarWaVgWWzKuNh5HLfITj543I=
 		</data>
 		<key>PaymentsViewController.nib</key>
 		<data>
-		4eDtQpsWpIlvtbB4lialKj/hyAg=
+		YNkjtv+xfxeDpXZJlmL3ImvagvQ=
 		</data>
 		<key>StartViewController.nib</key>
 		<data>
-		z+JzF/GTc+k1fV4xe+lPZMdImvo=
+		6Q4JlwFz3x/HdC2p7HwiThNdcqE=
 		</data>
 		<key>SubViewViewController.nib</key>
 		<data>
-		GsHXBXX+SabpIRctxiGXM9y24G8=
+		yk69uC6xrlQPzhkoK2pT6VCdY/I=
 		</data>
 		<key>SubscriptionSummaryViewController.nib</key>
 		<data>
-		zLpfCKWojKagJrTGXOkpQHzyiqw=
+		Zp/FqosrjgwnlV86w5I9SP+dX2k=
 		</data>
 		<key>pd_checkbox.png</key>
 		<data>
