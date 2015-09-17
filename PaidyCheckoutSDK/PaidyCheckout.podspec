@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "Paidy" => "support@paidy.com" }
   s.platform     = :ios,"8.0"
-  s.source       = { :git => "https://github.com/paidy/paidy-ios.git" }
+  s.source       = { :git => "https://github.com/paidy/paidy-ios.git", :tag => "v#{s.version}" }
   s.source_files  = 'PaidyCheckoutSDK/PaidyCheckoutSDK/*'
-  s.dependency 'Alamofire'
+  s.dependency 'Alamofire', '1.3.1'
   s.dependency 'ObjectMapper','0.12'
 end
